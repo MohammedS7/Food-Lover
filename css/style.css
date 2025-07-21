@@ -105,6 +105,11 @@ span {
   font-size: 40px;
   margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+  .main-title h2 {
+    font-size: 30px;
+  }
+}
 .main-title p {
   font-size: 14px;
   color: #777;
@@ -303,12 +308,17 @@ span {
 }
 @media (max-width: 767px) {
   .header .home-content .text {
-    width: 400px;
+    width: 350px;
   }
 }
 .header .home-content h1 {
   font-size: 40px;
   color: #fff;
+}
+@media (max-width: 767px) {
+  .header .home-content h1 {
+    font-size: 35px;
+  }
 }
 .header .home-content p {
   color: #fff;
@@ -619,6 +629,7 @@ span {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    gap: 5px;
   }
 }
 .contact .contact-content .info .item {
@@ -682,6 +693,14 @@ span {
   font-size: 14px;
   font-weight: 500;
 }
+@media (max-width: 767px) {
+  .contact .contact-content .form input,
+  .contact .contact-content .form textarea {
+    width: 180%;
+    margin: 1.25rem auto;
+    transform: translateX(-20%);
+  }
+}
 .contact .contact-content .form textarea::placeholder {
   color: #777;
   opacity: 0.8;
@@ -694,6 +713,12 @@ span {
   padding-right: 40px;
   cursor: pointer;
   transition: var(--main-transition);
+}
+@media (max-width: 767px) {
+  .contact .contact-content .form .main-btn {
+    margin: 0 auto;
+    left: 20%;
+  }
 }
 .contact .contact-content .form .main-btn:hover {
   background-color: var(--secondary-color);
