@@ -54,6 +54,20 @@ ul {
     width: 1170px;
   }
 }
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--secondary-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--fav-color);
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f1bf54;
+}
 /* End Global Rules */
 
 /* Start Components */
