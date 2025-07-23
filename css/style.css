@@ -54,9 +54,6 @@ ul {
     width: 1170px;
   }
 }
-::-webkit-scrollbar {
-  width: 12px;
-}
 /* End Global Rules */
 
 /* Start Components */
